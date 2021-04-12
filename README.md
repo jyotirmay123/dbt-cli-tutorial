@@ -3,8 +3,14 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
-- dbt run
+- dbt debug
+- dbt run   
+- dbt run --full-refresh
+- dbt run --models <model_name1 m2 m3>   # To run a single  or space separated list of model
 - dbt test
+- dbt test --models <model_name1 m2 m3>  # To test a single or space separated list of model.
+- dbt docs generate
+- dbt docs serve
 
 
 ### Resources:
